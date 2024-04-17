@@ -1,0 +1,36 @@
+{% extends 'dashboard/base.html' %}
+{% block content %}
+
+
+
+<div class="main-content app-content mt-0" >
+    
+                  
+    <!-- content -->
+
+    <div class="form-floating floating-label1">
+        <form method="post">
+            {% csrf_token %}
+
+        <input type="text"textarea class="form-control" name="name" placeholder="Category" id="floatingTextarea2" style="height: 100px"></textarea>
+        
+
+            <div class="col-md-12">
+                <button type="submit" class="btn btn-success rounded-pill">Success</button>
+            </div>
+        </form>
+    </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+{% endblock %}
+
+

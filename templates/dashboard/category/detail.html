@@ -1,0 +1,58 @@
+{% extends 'dashboard/base.html' %}
+{% block content %}
+
+
+
+
+
+
+<div class="main-content app-content mt-0">
+    <div class="content">
+
+        <!-- Start Content-->
+        <div class="container-fluid">
+
+            <div class="row">
+                <div class="col-2"></div>
+                <div class="col-8">
+                     <div class="card">
+                            <div class="card-body">
+                                <h4 class="header-title mb-3">Category haqida batafsil</h4>
+    
+                                <div class="table-responsive">
+                                    <table class="table mb-0">
+                                        <thead class="table-light">
+                                        </thead>
+                                        <tbody>
+                                        <tr>
+                                            <td><strong>Name</strong></td>
+                                            <td>{{category.name}}</td>
+                                        </tr>
+                                        
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <!-- end table-responsive -->
+    
+                            </div>
+                        </div>
+                    </div> <!-- end card-->
+                </div> <!-- end col -->
+            </div>
+        </div>
+        <!-- container -->
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+{% endblock %}
